@@ -13,7 +13,7 @@
    `import xadmin   
    urlpatterns = [path('xadmin/', xadmin.site.urls),]`
 - 在 admin.py 同级目录下新建 adminx.py <br/>
-	`import xadmin  <br/>
+	`import xadmin 
 	from .models import UserInfo
 	class UserInfoAdmin(object):
 	    list_display = ['id', 'user_phone', 'user_nickname', 'user_gender']
